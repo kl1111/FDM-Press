@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+<?xml-stylesheet type="text/xsl" href="bookif.xsl"?>
+-->
+
+<blogs>
+	<blog>
+		<page>about.html</page>
+		<name>The Developer</name>
+		<topic>Education</topic>
+	</blog>
+
+	<blog>
+		<page>bf.html</page>
+		<name>Brave Frontier Global</name>
+		<topic>Games</topic>
+	</blog>
+	
+	<blog>
+		<page>chem.html</page>
+		<name>Compound Chem</name>
+		<topic>Education</topic>
+	</blog>
+</blogs>

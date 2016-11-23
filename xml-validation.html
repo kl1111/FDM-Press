@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  
+   
+   $("#myform").submit(function(){
+       var name = $("#thename").val();
+       alert("users name is:" + name);
+       $.get('users.xml', function (users) {
+                    alert("inside function");
+                    $(d).find('user').each(function () {
+                         var $theuser = $(this);
+                                                                                
+                              var currname = $theuser.find('name').text();
+                              alert("name is:" + currname);
+                              if( name == currname){
+                               alert("we have a match");
+                              window.location.href="success.html";
+                                                                                                                  }
+
+                    });
+                });
+                   
+
+                   return false;
+                });
+   
+   
+});
+
+</script>
+
+
+</head>
+<body>
+
+<form action="dc.asp" method="get" id="myform">
+    <input type="text" value="default" id="thename" name="username" /><br >
+                <input type="submit" value="validate!" />
+
+
+</form>
+
+
+
+
+</body>
+</html>
