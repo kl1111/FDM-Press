@@ -24,3 +24,6 @@ SETBACKS:
 The use of databases to store data was not permitted and thus the registration page does not have any functionality.
 
 
+CREDITS:
+
+Theme based on "Clean blog" theme on Bootstrap.
