@@ -12,11 +12,17 @@ The course was a week long with the aim of producing a working blogging platform
 REQUIREMENTS:
 
   Create a form using HTML
+  
   Use JQuery and HTML5 validation for the form
+  
   Utilise HTML, CSS and images within the site
+  
   Demonstrate interactivity (hover, buttons)
+  
   Show responsiveness (Does the webpage change depending on the size of the browser?)
+  
   Use toolkit columns
+  
   Read XML/JSON
   
 SETBACKS:
